@@ -25,7 +25,7 @@
 - [JEP 345 – NUMA-Aware Memory Allocation for G1](https://openjdk.java.net/jeps/345)  
 - [JEP 349 – JFR (Java Flight Recorder) Event Streaming](https://openjdk.java.net/jeps/349)
 - [JEP 352 – Non-Volatile Mapped Byte Buffers](https://openjdk.java.net/jeps/352)
-- [JEP 362 – Deprecate the Solaris and SPARC Ports](https://openjdk.java.net/jeps/363)
+- [JEP 362 – Deprecate the Solaris and SPARC Ports](https://openjdk.java.net/jeps/362)
 - [JEP 363 – Remove the Concurrent Mark Sweep (CMS) Garbage Collector](https://openjdk.java.net/jeps/363)
 - [JEP 364 – ZGC on macOS](https://openjdk.java.net/jeps/364)
     - Z Garbage Collector on mac OS
