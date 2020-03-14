@@ -1,0 +1,9 @@
+package com.github.xtermi2.java14.records;
+
+/**
+ * like a data class in kotlin:
+ * - immutable
+ * - not extendable
+ * - has build in toString, equals and hashCode
+ */
+public record Point(int x,int y){}
