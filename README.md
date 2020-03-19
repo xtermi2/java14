@@ -1,3 +1,5 @@
+![Java CI](https://github.com/xtermi2/java14/workflows/Java%20CI/badge.svg)
+
 # Java 14 Features
 
 -   [JEP 305 – Pattern Matching for instanceof (Preview)](https://openjdk.java.net/jeps/305)
