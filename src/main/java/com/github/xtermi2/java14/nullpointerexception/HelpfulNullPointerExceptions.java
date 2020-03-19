@@ -15,12 +15,9 @@ public class HelpfulNullPointerExceptions {
         if (msg == null) {
             msg = a.b.c.s;
         }
-        return buildInfo(msg.toString(), logger);
-    }
-
-    private String buildInfo(String msg, Logger logger) {
-        logger.info(msg);
-        return msg;
+        String text = msg.toString();
+        logger.info(text);
+        return text;
     }
 
     public static class A {
