@@ -9,7 +9,7 @@
 -   [JEP 368 – Text Blocks (Second Preview)](https://openjdk.java.net/jeps/368)
     -   see `TextBlock.java`
 -   [JEP 358 – Helpful NullPointerExceptions](https://openjdk.java.net/jeps/358)
-    -   see ``
+    -   see `HelpfulNullPointerExceptions.java` and `HelpfulNullPointerExceptionsTest.java`
     -   is disabled by default and must be enabled with `-XX:+ShowCodeDetailsInExceptionMessages` 
 -   [JEP 343 – Packaging Tool (Incubator)](https://openjdk.java.net/jeps/343)
     -   to package Java applications as installation files (exe, msi, pkg, dmg, deb, rpm) for easy installation.
