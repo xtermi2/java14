@@ -2,16 +2,16 @@ package com.github.xtermi2.java14.switchexpressions;
 
 public class SwitchExpressions {
 
-    public boolean isWeekend(WeekDay day){
-        boolean weekend = switch (day){
+    public boolean isWeekend(WeekDay day) {
+        boolean weekend = switch (day) {
             case MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY -> false;
             case SATURDAY, SUNDAY -> true;
         };
         return weekend;
     }
 
-    public int dayNumber(WeekDay day){
-        return switch (day){
+    public int dayNumber(WeekDay day) {
+        return switch (day) {
             case MONDAY -> 1;
             case TUESDAY -> 2;
             default -> {

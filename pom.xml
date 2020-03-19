@@ -53,7 +53,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven-surefire-plugin.version}</version>
                 <configuration>
-                    <argLine>--enable-preview</argLine>
+                    <argLine>--enable-preview -XX:+ShowCodeDetailsInExceptionMessages</argLine>
                 </configuration>
             </plugin>
             <plugin>
@@ -63,7 +63,7 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <mainClass>com.github.xtermi2.java14.nullpointerexception.BetterNullPointerInformation</mainClass>
+                            <mainClass>com.github.xtermi2.java14.nullpointerexception.HelpfulNullPointerExceptions</mainClass>
                             <Automatic-Module-Name>com.github.xtermi2.java14</Automatic-Module-Name>
                         </manifestEntries>
                     </archive>
@@ -80,7 +80,7 @@
                             <goal>java</goal>
                         </goals>
                         <configuration>
-                            <mainClass>com.github.xtermi2.java14.nullpointerexception.BetterNullPointerInformation</mainClass>
+                            <mainClass>com.github.xtermi2.java14.nullpointerexception.HelpfulNullPointerExceptions</mainClass>
 
                         </configuration>
                     </execution>

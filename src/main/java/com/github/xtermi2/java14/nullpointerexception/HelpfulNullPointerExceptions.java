@@ -2,13 +2,13 @@ package com.github.xtermi2.java14.nullpointerexception;
 
 import java.util.logging.Logger;
 
-public class BetterNullPointerInformation {
+public class HelpfulNullPointerExceptions {
 
-    private static final Logger logger = Logger.getLogger(BetterNullPointerInformation.class.getName());
+    private static final Logger logger = Logger.getLogger(HelpfulNullPointerExceptions.class.getName());
     private A a = new A();
 
     public static void main(String[] args) {
-        new BetterNullPointerInformation().info(null);
+        new HelpfulNullPointerExceptions().info(null);
     }
 
     public String info(Object msg) {

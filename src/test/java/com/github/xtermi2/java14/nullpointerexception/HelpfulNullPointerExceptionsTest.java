@@ -1,6 +1,5 @@
 package com.github.xtermi2.java14.nullpointerexception;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.util.logging.Level;
@@ -9,11 +8,11 @@ import java.util.logging.Logger;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.catchThrowable;
 
-class BetterNullPointerInformationTest {
+class HelpfulNullPointerExceptionsTest {
 
-    private static final Logger logger = Logger.getLogger(BetterNullPointerInformationTest.class.getName());
+    private static final Logger logger = Logger.getLogger(HelpfulNullPointerExceptionsTest.class.getName());
 
-    private BetterNullPointerInformation underTest = new BetterNullPointerInformation();
+    private HelpfulNullPointerExceptions underTest = new HelpfulNullPointerExceptions();
 
     @Test
     void no_exception() {
@@ -33,6 +32,6 @@ class BetterNullPointerInformationTest {
 
         assertThat(throwable)
                 .isInstanceOf(NullPointerException.class)
-                .hasMessage(null);
+                .hasMessage("Cannot read field \"c\" because \"this.a.b\" is null");
     }
 }

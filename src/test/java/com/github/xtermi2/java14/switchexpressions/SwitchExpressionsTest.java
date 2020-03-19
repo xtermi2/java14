@@ -3,7 +3,7 @@ package com.github.xtermi2.java14.switchexpressions;
 import org.junit.jupiter.api.Test;
 
 import static com.github.xtermi2.java14.switchexpressions.SwitchExpressions.WeekDay.FRIDAY;
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 class SwitchExpressionsTest {
 

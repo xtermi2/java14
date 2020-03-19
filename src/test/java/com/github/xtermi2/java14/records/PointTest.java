@@ -1,13 +1,12 @@
 package com.github.xtermi2.java14.records;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class PointTest {
 
-    private Point underTest = new Point(1,2);
+    private Point underTest = new Point(1, 2);
 
     @Test
     void record_toString() {
