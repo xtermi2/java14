@@ -6,4 +6,10 @@ package com.github.xtermi2.java14.records;
  * - not extendable
  * - has build in toString, equals and hashCode
  */
-public record Point(int x,int y){}
+public record Point(int x, int y) {}
+
+record Point3D(int x, int y, int z) {
+    Point3D(int x, int y) {
+        this(x, y, 0);
+    }
+}

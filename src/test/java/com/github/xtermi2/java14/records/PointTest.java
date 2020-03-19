@@ -19,4 +19,15 @@ public class PointTest {
         assertThat(underTest)
                 .isEqualTo(new Point(1, 2));
     }
+
+    @Test
+    void Point2_constructor() {
+        Point3D point = new Point3D(1, 2);
+        assertThat(point.toString())
+                .as("toString")
+                .isEqualTo("Point3D[x=1, y=2, z=0]");
+        assertThat(point)
+                .as("equals")
+                .isEqualTo(new Point3D(1, 2, 0));
+    }
 }
